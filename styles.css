@@ -1,0 +1,184 @@
+* {
+   font-family: 'Poppins', sans-serif;
+}
+/******************** ID SELECTORS ********************/
+#cover {
+   margin: 0;
+}
+#dropdown1 {
+   margin: 51px auto auto 62px;
+}
+#dropdown2 {
+   margin: 61px auto auto 275px;
+}
+#dropdown3 {
+   margin: 61px auto auto 485px;
+}
+#dropdown4 {
+   margin: 61px auto auto 750px;
+}
+#dropdown5 {
+   margin: 61px auto auto 955px;
+}
+#dropdown6 {
+   margin: 61px auto auto 1205px;
+}
+#dropdown7 {
+   margin: 61px auto auto 1350px;
+}
+#foot {
+   border-spacing: 50px;
+   font-size: 1.5rem;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+#head {
+   display: block;
+   width: 90%;
+}
+#mainbackimage {
+   height: 100%;
+   width: 100%;
+}
+#newsdivleft {
+   background-image: url(./stanford-oval.jpg);
+   color: white;
+   height: 500px;
+   padding: 20px;
+   width: 50%;
+}
+#spot {
+   margin: 70px;
+   width: 90%;
+}
+#spotlight {
+   padding: 20px;
+}
+/******************** CLASS SELECTORS ********************/
+.cards {
+   color: white;
+   height: 300px;
+   width: 440px;
+   /* display: flex; */
+}
+.cardcontainer {
+   display: flex;
+}
+.cards, .cardcontainer, .cardscover{
+   margin: 20px;
+   width: 100%;
+}
+.cardscover {
+   margin: auto 70px auto 70px;
+   width: 90%;
+}
+.dropdown {
+   background-color: #82CE47;
+   display: none;
+   padding: 10px;
+   position: absolute;
+   z-index: 1;
+}
+img.footer{
+   height: 30px;
+   width: 30px;
+   margin: 0 10px 0 10px;
+}
+.name {
+   color: white;
+   font-family: 'Sacramento', cursive;
+   font-size: 5rem;
+   font-weight: normal;
+   position: absolute;
+   margin: 25vh 30% 0 30%;
+}
+.newslets {
+   border-color: black;
+   border-style: solid;
+   border-width: 0 0 1px 0;
+   display: flex;
+   font-size: 1.3rem;
+   font-weight: bolder;
+   margin: 50px;
+}
+.newslets pre {
+   color: grey;
+}
+/******************** ELEMENT SELECTORS ********************/
+.announcements {
+   border-spacing: 20px;
+}
+.announcements td {
+   margin: 0 20px 0 20px;
+   padding: 0 10px 0 10px;
+   border: 1px solid lightgrey;
+   font-size: 1.3rem;
+   font-weight: bolder;
+}
+.announcements pre {
+   color: grey;
+}
+.dropdown td {
+   border-color: white;
+   border-style: solid;
+   border-width: 1px 0 0 0;
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   padding: 10px;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+fieldset {
+   border-style: inset;
+   border-width: 2px 0 0 0;
+   margin: 20px;
+   padding: 0;
+   width: 75%;
+}
+footer {
+   background-color: #82CE47;
+   font-size: 2.5rem;
+   text-align: center;
+}
+h1 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 2rem;
+}
+h1, h2 {
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+}
+hr {
+   display: inline;
+   width: 30%;
+}
+legend {
+   text-align: center;
+}
+li {
+   color: white;
+   display: inline;
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.25em;
+   padding: 40px;
+}
+nav {
+   background-color: #82CE47;
+   position: absolute;
+   width: 100%;
+}
+p, h3 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.35rem;
+}
+span {
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.5rem;
+   margin: 480px 5rem;
+   position: absolute;
+   text-align: center;
+}
